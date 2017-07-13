@@ -4,7 +4,7 @@
 
 ## Instalação
 
-Precisa incluir o arquivo "firebase-arduino-master.zip" para compilar.
+Precisa incluir o arquivo "firebase.zip" para compilar.
 
 ## Screen Shot
  
