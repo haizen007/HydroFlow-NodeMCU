@@ -1,11 +1,11 @@
-/**
-   Classe que apenas faz a leitura de consumo e converse em Litros
-   A base de calculo é a cada x Segundos mediante o delay total criado na "Main"
+/*
+   Classe que faz a leitura de consumo e converte em Litros
+   A base de cálculo é a cada x Segundos mediante o delay total criado na "Main"
    Durante este intervalo são registrados e enviados os dados para o Servidor
-   O envia é feito pela Classe "Wifi.h"
+   O envio é feito pela Classe "Wifi.h"
 */
 
-byte tempo;         // Contagem de segundos
+int tempo;          // Contagem de segundos
 double vazao;       // Armazenar o valor em L/mins
 double total;       // Total de Litros consumidos
 double consumo;     // Média a cada x segundo
@@ -16,7 +16,7 @@ void addPulso () {
 }
 
 void waterInterruptAdd () {
-  attachInterrupt(D4, addPulso, FALLING); // Configura o pino D4 para trabalhar com interrupção
+  attachInterrupt(D4, addPulso, FALLING); // Configura o pino D4 para interrupção
 }
 
 void waterInterruptON () {
@@ -28,7 +28,7 @@ void waterInterruptOFF () {
 }
 
 void waterDataClean () {
-  pulso = 0; // Zera a variável para contar os giros por segundos
+  pulso = 0; // Zera a variável de pulsos para realização de nova contagem
 }
 
 void waterDataFake () {
