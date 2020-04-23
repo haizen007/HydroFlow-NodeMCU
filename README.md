@@ -10,6 +10,6 @@ Link: [Google Play](https://play.google.com/store/apps/details?id=br.com.yonatha
 
 Need to include the "firebase.zip" file to compile.
 
-## Screen Shot
+## ScreenShot
  
 ![alt-NodeMCU](screenshot.png "Main Class")
