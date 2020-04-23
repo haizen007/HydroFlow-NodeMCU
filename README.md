@@ -1,11 +1,15 @@
-## Versão
+## Version
 
-1.7
+2.0
 
-## Instalação
+## Android
 
-Precisa incluir o arquivo "firebase.zip" para compilar.
+Link: [Google Play](https://play.google.com/store/apps/details?id=br.com.yonathan.hydroflow)
+
+## Installation
+
+Need to include the "firebase.zip" file to compile.
 
 ## Screen Shot
  
-![alt tag](https://github.com/haizen007/HydroFlow_NodeMCU/blob/master/screenshot.png)
+![alt-NodeMCU](screenshot.png "Main Class")
